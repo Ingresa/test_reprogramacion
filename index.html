@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contactabilidad | Comisión Ingresa</title>
+<link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <div class="brand"><small>Comisión</small><strong>ingresa</strong><i></i></div>
+    <div class="navlinks"><span>Sitio seguro</span><span>Ayuda</span><span>Mi sesión ▾</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="step">Paso 1 de 2</span>
+    <h1>Actualiza tus datos de contacto</h1>
+    <p>Estos datos nos permiten comunicarnos contigo sobre beneficios, trámites y otra información importante de Comisión Ingresa.</p>
+  </section>
+
+  <div class="verified">
+    <b>✓</b>
+    <div><strong>Tu identidad ha sido verificada correctamente.</strong><small>Puedes continuar actualizando tus datos.</small></div>
+  </div>
+
+  <div class="grid">
+    <section class="card formcard">
+      <form id="contactForm">
+        <label>Correo electrónico</label>
+        <input id="email" type="email" value="usuario@correo.cl">
+        <small>A este correo te enviaremos información importante.</small>
+
+        <label>Confirma tu correo electrónico</label>
+        <input id="email2" type="email" value="usuario@correo.cl">
+        <small id="match" class="ok">Los correos coinciden.</small>
+
+        <label>Teléfono celular</label>
+        <div class="phone"><input value="+56" readonly><input id="phone" value="9 1234 5678"></div>
+        <small>Te enviaremos códigos de verificación y notificaciones importantes.</small>
+
+        <div class="privacy">
+          <b>▣</b>
+          <div><strong>Tus datos están protegidos</strong><p>La información será utilizada únicamente para fines asociados a tus trámites y comunicaciones con Comisión Ingresa.</p></div>
+        </div>
+
+        <button type="submit">Guardar y continuar →</button>
+        <div id="success" class="success" hidden>✓ Datos guardados correctamente. Esta demo no envía información a ningún servidor.</div>
+      </form>
+    </section>
+
+    <aside>
+      <section class="card side">
+        <h2>¿Por qué son importantes tus datos de contacto?</h2>
+        <article><b>✉</b><div><strong>Te mantenemos informado</strong><p>Recibe noticias y novedades sobre beneficios, plazos y trámites.</p></div></article>
+        <article><b>◇</b><div><strong>Seguridad en tus trámites</strong><p>Usamos tu correo y teléfono para verificar tu identidad y proteger tu información.</p></div></article>
+        <article><b>▯</b><div><strong>Canales oficiales</strong><p>Te contactamos solo por canales oficiales de Comisión Ingresa.</p></div></article>
+      </section>
+
+      <section class="card side help">
+        <h2>¿Necesitas ayuda?</h2>
+        <a href="https://portal.ingresa.cl/" target="_blank">Ir al sitio de Comisión Ingresa →</a>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap footer">
+    <div><strong>Comisión Ingresa</strong><small>Administradora del Sistema de Créditos para Estudios Superiores</small></div>
+    <div>Términos y condiciones · Política de privacidad · Accesibilidad</div>
+  </div>
+</footer>
+<script src="./assets/app.js"></script>
+</body>
+</html>
